@@ -7,6 +7,8 @@ module.exports = function(sequelize, DataTypes) {
     classMethods: {
       associate: function(models) {
         // associations can be defined here
+        // associate itemId to id column in items table
+        MachineInfo.belongsTo(models.Item, {foreignKey: 'itemId'});
       }
     }
   });
