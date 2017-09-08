@@ -10,15 +10,15 @@ const routes = require('./routes')
 //   // send message here
 // })
 
-// const item = models.Item.build({
-//   name: 'coke',
-//   cost: 99,
-//   quantity: 5
-// });
-//
-// item.save().then(function(newItem) {
-//   console.log(newItem);
-// });
+const item = models.Item.build({
+  name: 'coke',
+  cost: 99,
+  quantity: 5
+});
+
+item.save().then(function(newItem) {
+  console.log(newItem);
+});
 
 app.use(routes);
 
