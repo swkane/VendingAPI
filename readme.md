@@ -1,7 +1,7 @@
 Custom API for a Vending Machine
 
+Status:
+ - Hit first endpoint successfully
 TODO:
 
- - establish foreign keys and relationships
- - create endpoints
- - create appropriate instances
+ - fix second endpoint
